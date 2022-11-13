@@ -112,12 +112,20 @@ footer{
 
 /*About-us section*/
 
-.about-us{
-    background-color: coral;
+section{
     padding: 50px 0 0;
     height: 100vh;
 }
 
-.about-us h2{
+section h2{
     text-align: center;
+    text-transform: uppercase;
+}
+
+.about-us{
+    background-color: coral;
+}
+
+.contact{
+    background-color: seagreen;
 }
