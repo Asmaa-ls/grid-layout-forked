@@ -8,17 +8,18 @@ body{
     font: 1em /1.3  Arial, Helvetica, sans-serif;
     /* font: 1.4em /1.3  Arial, Helvetica, sans-serif; */
 }
-.container{
-    width: 90%;
-    margin: 30px auto;
-}
+/* .container{
+    
+} */
 ul{
     list-style-type: none;
 }
 a{
     color: #333;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 nav ul li a{
     text-decoration: none;
@@ -42,7 +43,7 @@ article p{
 }
 
 main{
-    margin: 20px 0;
+    margin: 20px ;
 }
 
 
@@ -107,4 +108,16 @@ footer{
 .grid-list li{
     border: 2px solid #333;
     padding: 10px;
+}
+
+/*About-us section*/
+
+.about-us{
+    background-color: coral;
+    padding: 50px 0 0;
+    height: 100vh;
+}
+
+.about-us h2{
+    text-align: center;
 }
